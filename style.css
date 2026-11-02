@@ -1,0 +1,46 @@
+body {
+    background-color: black;/* Warna gelap*/
+    font-family: Arial, sans-serif;
+}
+
+.wadah-hp {
+    background-color: white;
+    max-width: 350px;/* Kunci ukuran HP! */
+    margin: 50px auto;/* Keterangan layar */
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.foto-bulat {
+    width: 100px;
+    border-radius: 50%;/*Membuat foto melingkar sempurna*/
+    border: 3px solid black;/*Garis pinggir warna neon*/
+}
+
+.nama-akun {
+    color: black;
+    margin-top: 5px;
+}
+
+.bio-singkat {
+    color: #000;
+}
+
+.tombol-link {
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.tombol-link:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.05);
+}
